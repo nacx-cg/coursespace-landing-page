@@ -62,19 +62,19 @@ const HomeFeature: FC = () => {
                 </Typography>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    UI/UI Design
+                    Impuestos y facturación
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Mobile Development
+                    Herramientas digitales
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={40} order={2} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Web Development
+                    Precio de consulta
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
                 </Box>
@@ -103,9 +103,9 @@ const HomeFeature: FC = () => {
                     flexDirection: 'column',
                   }}
                 >
-                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Lorem ipsum</Typography>
+                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Ingresos</Typography>
                   <Typography variant="subtitle1" sx={{ mb: 1, color: 'text.disabled' }}>
-                    Lorem ipsum
+                    Objetivo mensual
                   </Typography>
                   <Box
                     sx={{
@@ -118,7 +118,7 @@ const HomeFeature: FC = () => {
                     }}
                   >
                     <Typography variant="h4" sx={{ color: '#32dc88' }}>
-                      75%
+                      85%
                     </Typography>
                     <CircularProgress
                       sx={{ position: 'absolute', color: 'divider' }}
@@ -153,7 +153,7 @@ const HomeFeature: FC = () => {
                 fontWeight: 'bold',
               }}
             >
-              Make your{' '}
+              Haz tu {' '}
               <Typography
                 component="mark"
                 sx={{
@@ -164,7 +164,7 @@ const HomeFeature: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Learning <br />
+                aprendizaje <br />
                 <Box
                   sx={{
                     position: 'absolute',
@@ -178,12 +178,14 @@ const HomeFeature: FC = () => {
                   <img src="/images/headline-curve.svg" alt="Headline curve" />
                 </Box>
               </Typography>
-              Enjoyable
+              productivo
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-              Set the way of learning according to your wishes with some of the benefits that you get us, so you on
-              enjoy the lessons that we provide.
+            Enriquece tu camino de aprendizaje con nosotros y acelera tu carrera. 
+            Valoramos tu dedicación y compromiso como médico. 
+            Tu crecimiento profesional y el bienestar de tus pacientes son nuestra máxima prioridad.
+             ¡Acompáñanos en esta jornada de conocimiento y excelencia médica!
             </Typography>
 
             <Grid container spacing={2} sx={{ ml: { xs: 0, md: 2 } }}>
